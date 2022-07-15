@@ -3,6 +3,29 @@ html{
     margin: 0;
     padding: 0;
 }
+
+@font-face {
+    font-family: 'TTLakes-Thin';
+    src: url('./fonts/TTLakes-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TTLakes-DemiBold';
+    src: url('./fonts/TTLakes-DemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TTLakes-Light';
+    src: url('./fonts/TTLakes-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*TTLakes-Light*/
 *, *::before, *::after{
     box-sizing: inherit;
     margin: 0;
@@ -80,10 +103,7 @@ html{
     .about__title{
         margin-left: 15px;
         position: relative;
-        @font-face {
-            font-family: TTLakes;
-            src: url(TTLakes/TTLakes-DemiBold.woff);
-        }
+        font-family: 'TTLakes-DemiBold';
         margin-top: 20px;
         margin-bottom: 20px;
         
@@ -227,10 +247,7 @@ html{
     .about__title{
         margin-left: 15px;
         position: relative;
-        @font-face {
-            font-family: TTLakes;
-            src: url(TTLakes/TTLakes-DemiBold.woff);
-        }
+        font-family: 'TTLakes-DemiBold';
         margin-top: 20px;
         margin-bottom: 20px;
         
@@ -281,7 +298,8 @@ html{
 
     .description__text{
         color:#000;
-        font-family: 'Montserrat', sans-serif;
+       font-family: 'TTLakes-Light';
+        
         
     }
     .description__button{
@@ -407,10 +425,7 @@ html{
     .about__title{
         margin-left: 15px;
         position: relative;
-        @font-face {
-            font-family: TTLakes;
-            src: url(TTLakes/TTLakes-DemiBold.woff);
-        }
+        font-family: 'TTLakes-DemiBold';
         margin-top: 20px;
         margin-bottom: 20px;
         
@@ -461,7 +476,7 @@ html{
 
     .description__text{
         color:#000;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'TTLakes-Light', sans-serif;
         
     }
     .description__button{

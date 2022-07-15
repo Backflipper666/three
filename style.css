@@ -23,9 +23,26 @@ html{
     src: url('./fonts/TTLakes-Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-/*TTLakes-Light*/
+@font-face {
+    font-family: 'TTLakes-Regular';
+    src: url('./fonts/TTLakes-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TTLakes-ExtraLight';
+    src: url('./fonts/TTLakes-ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TTLakes-Medium';
+    src: url('./fonts/TTLakes-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*TTLakes-Medium*/
 *, *::before, *::after{
     box-sizing: inherit;
     margin: 0;
@@ -109,9 +126,9 @@ html{
         
     }
     .services__wrapper{
-        font-family: 'Dosis', sans-serif;
         display: flex;
         flex-wrap: nowrap;
+        font-family: 'TTLakes-ExtraLight', sans-serif;
        
     }
     .services__wrapper button{
@@ -148,6 +165,7 @@ html{
         margin: 20px 20px;
     }
     .description__button{
+        font-family: 'TTLakes-Medium',serif;
         background-color: #f8f8f8;
         border: #f8f8f8;
         font-size: 15px;
@@ -253,7 +271,7 @@ html{
         
     }
     .services__wrapper{
-        font-family: 'Dosis', sans-serif;
+        font-family: 'TTLakes-ExtraLight', sans-serif;
         display: flex;
         flex-wrap: nowrap;
        
@@ -303,6 +321,7 @@ html{
         
     }
     .description__button{
+        font-family: 'TTLakes-Medium',serif;
         background-color: #f8f8f8;
         border: #f8f8f8;
         font-size: 15px;
@@ -349,6 +368,7 @@ html{
         column-gap: 25px;
         margin-left: auto;
         align-items: center;
+        font-family: 'TTLakes-Regular', sans-serif;
     }
     .about__container{
         display: flex;
@@ -431,7 +451,7 @@ html{
         
     }
     .services__wrapper{
-        font-family: 'Dosis', sans-serif;
+        font-family: 'TTLakes-ExtraLight', sans-serif;
         display: flex;
         flex-wrap: nowrap;
        
@@ -480,6 +500,7 @@ html{
         
     }
     .description__button{
+        font-family: 'TTLakes-Medium', sans-serif;
         background-color: #f8f8f8;
         border: #f8f8f8;
         font-size: 15px;

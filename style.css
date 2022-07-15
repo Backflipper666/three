@@ -322,16 +322,42 @@ html{
     
 
 @media(min-width:1120px){
+    /*правки начало*/
     body{
         width:1120px;
     }
-    
-    
+    .about__links{
+        display: flex;
+        column-gap: 25px;
+        margin-left: auto;
+        align-items: center;
+    }
+    .about__container{
+        display: flex;
+
+    }
+
+    .about__order-link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color:black;
+        column-gap: 10px;
+    }
+
+    .about__repair-link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color:#000;
+        column-gap: 10px;
+    }
     .upperMenu__wrapper{
         display: flex;
         align-items: center;
         
     }
+    /*правки конец*/
     .upperMenu__wrapper span{
         padding: 10px;
         margin-left: -5px;

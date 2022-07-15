@@ -306,6 +306,8 @@ html{
     body{
         width:1120px;
     }
+    
+    
     .upperMenu__wrapper{
         display: flex;
         align-items: center;
@@ -445,6 +447,11 @@ html{
 
     html:not(div.upperMenu){
         background-color: #f8f8f8;
+    }
+    /*hide header for desktop*/
+    .upperMenu__wrapper{
+        display: none;
+        visibility: hidden;
     }
 
 }

@@ -22,6 +22,7 @@ html{
         border-bottom: 1px solid #B8FFEC;
         align-items: center;
     }
+
     .upperMenu__burger{
         vertical-align:middle;
         margin-left: 10px;
@@ -39,11 +40,13 @@ html{
     }
     .upperMenu__repair{
         vertical-align: middle;
+        box-shadow: none;
         /*border: 1px solid #000;
         margin-left: 10px;*/
     }
-    .upperMenu__check{
-        vertical-align: middle;
+
+    .upperMenu__checkIcon{
+         box-shadow: none;
     }
 
     div.upperMenu img{
@@ -154,7 +157,7 @@ html{
 
 
 
-@media (min-width:768px) and (max-width:991px){
+@media (min-width:768px) and (max-width:1119px){
     .upperMenu__wrapper{
         display: flex;
         align-items: center;
@@ -299,7 +302,10 @@ html{
 
     
 
-@media(min-width:1200px){
+@media(min-width:1120px){
+    body{
+        width:1120px;
+    }
     .upperMenu__wrapper{
         display: flex;
         align-items: center;

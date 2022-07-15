@@ -149,6 +149,10 @@ html{
         display: none;
         visibility: hidden;
     }
+    .about__links{
+        display: none;
+        visibility: hidden;
+    }
 }
 
 
@@ -297,6 +301,10 @@ html{
 
     html:not(div.upperMenu){
         background-color: #f8f8f8;
+    }
+    .about__links{
+        display: none;
+        visibility: hidden;
     }
 }
 

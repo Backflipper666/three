@@ -271,6 +271,7 @@ html{
     .upperMenu__wrapper{
         display: flex;
         align-items: center;
+        border-bottom: 1px solid #B8FFEC;
         
     }
     .upperMenu__wrapper span{

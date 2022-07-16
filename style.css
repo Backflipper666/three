@@ -252,7 +252,7 @@ html{
     .description__button-wrapper{
         margin-left: 30px;
     }
-
+    /*arrows end*/
 
 }
 
@@ -391,11 +391,7 @@ html{
         border: 2px solid #B8FFEC;
         outline: none;
     }
-    .description__button::before{
-        content: url("expand.svg");
-    
-     
-    }
+
     .description__imageXS{
         display: none;
         visibility: hidden;
@@ -457,6 +453,45 @@ html{
             bottom: -5px;
         }
         /*pseudoelement for desktop end*/
+
+            /*arrows start*/
+    .description__arrow{
+        margin-right: -25px;
+        
+    }
+    .description__arrow span{
+       
+        display: block;
+        width: 7px;
+        height: 7px;
+        border-bottom: 1px solid #41F6D7;
+        border-right: 1px solid #41F6D7;
+        transform: rotate(45deg);
+        margin: -13px;
+      
+    }
+    .description__button-wrapper{
+        margin-left: 30px;
+        border: 1px solid #000;
+       
+    }
+    .description__button-text{
+        padding-bottom: 30px;
+    }
+    .description__button{
+        font-family: 'TTLakes-Medium',serif;
+        background-color: #f8f8f8;
+        border: #f8f8f8;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        margin-bottom: 45px;
+        margin-top: 30px;
+    }
+    /*arrows end*/
 
 }
 

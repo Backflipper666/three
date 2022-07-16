@@ -588,4 +588,18 @@ html{
         visibility: hidden;
     }
 
+    /*pseudoelement for desktop start*/
+    .about__title{
+        position: relative;
+    }
+    .about__title::before{
+        content: "";
+        border-left: 7px solid #41F6D7;
+        border-radius: 5px;
+        position: absolute;
+        left:-15px;
+        top: -5px;
+        bottom: -5px;
+    }
+     /*pseudoelement for desktop end*/
 }

@@ -217,6 +217,21 @@ html{
         bottom: 15px; 
     }
     /*convert decorative image to style end*/
+        /*convert decorative image to style end*/
+        /*pseudoelement for desktop start*/
+        .about__title{
+            position: relative;
+        }
+        .about__title::before{
+            content: "";
+            border-left: 10px solid #41F6D7;
+            border-radius: 5px;
+            position: absolute;
+            left:-20px;
+            top: -5px;
+            bottom: -5px;
+        }
+        /*pseudoelement for desktop end*/
 }
 
 
@@ -406,6 +421,20 @@ html{
             margin-right: 5px;
         }
         /*convert decorative image to style end*/
+            /*pseudoelement for desktop start*/
+        .about__title{
+            position: relative;
+        }
+        .about__title::before{
+            content: "";
+            border-left: 10px solid #41F6D7;
+            border-radius: 5px;
+            position: absolute;
+            left:-20px;
+            top: -5px;
+            bottom: -5px;
+        }
+        /*pseudoelement for desktop end*/
 
 }
 

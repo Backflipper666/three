@@ -257,6 +257,13 @@ html{
         display: none;
         visibility: hidden;
     }
+    .description__imageXS{
+
+    }
+    .description__imageXS-wrapper{
+        display: flex;
+        justify-content: center;
+    }
 
 }
 

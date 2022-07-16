@@ -211,6 +211,7 @@ html{
 
 
 @media (min-width:768px) and (max-width:1119px){
+
     .upperMenu__wrapper{
         display: flex;
         align-items: center;
@@ -241,6 +242,7 @@ html{
 
     .upperMenu__burger{
         padding-left: 15px;
+        margin-right: 5px;
     }
     .upperMenu__check{
         padding-right: 15px;
@@ -354,6 +356,24 @@ html{
         display: none;
         visibility: hidden;
     }
+
+        /*convert decorative image to style start*/
+        .upperMenu__burgerIcon{
+            position: relative;padding-right: 10px;
+            
+        }
+        .upperMenu__burgerIcon:after{
+            content: "";
+            border-right: #EAEAEA 2px solid;
+            position: absolute;
+            right:0px;
+            top: 15px;
+            bottom: 15px;   
+        }
+        .upperMenu__group{
+            margin-left: 5px;
+        }
+        /*convert decorative image to style end*/
 }
 
     

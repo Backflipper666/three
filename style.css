@@ -177,9 +177,10 @@ html{
         margin-bottom: 15px;
     }
     .description__button::before{
-        content: url("expand.svg");
-    
-     
+        /* content: url("expand.svg"); */
+/*         content: '';
+        border-top: #41F6D7;
+        position: absolute; */
     }
     .description__imageMD{
         display: none;
@@ -232,6 +233,27 @@ html{
             bottom: -5px;
         }
         /*pseudoelement for desktop end*/
+
+
+    /*arrows start*/
+    .description__arrow{
+        margin-right: -25px;
+    }
+    .description__arrow span{
+        display: block;
+        width: 7px;
+        height: 7px;
+        border-bottom: 1px solid #41F6D7;
+        border-right: 1px solid #41F6D7;
+        transform: rotate(45deg);
+        margin: -13px;
+      
+    }
+    .description__button-wrapper{
+        margin-left: 30px;
+    }
+
+
 }
 
 

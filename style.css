@@ -62,6 +62,13 @@ html{
         border-bottom: 1px solid #B8FFEC;
         align-items: center;
     }
+    .upperMenu__containerLeft{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        column-gap: 10px;
+       
+    }
     .upperMenu__containerRight{
         display: flex;
         align-items: center;

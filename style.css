@@ -492,8 +492,8 @@ html{
         display: flex;
         align-items: center;
         padding: 5px;
-        margin-bottom: 45px;
-        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-top: 10px;
     }
     /*arrows end*/
     .description__full-text{
@@ -726,8 +726,8 @@ html{
         display: flex;
         align-items: center;
         padding: 5px;
-        margin-bottom: 45px;
-        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-top: 10px;
     } 
     /*arrows end*/
 }

@@ -202,6 +202,21 @@ html{
         display: none;
         visibility: hidden;
     }
+
+    /*convert decorative image to style start*/
+    .upperMenu__repairIcon{
+        position: relative;
+        padding-left: 10px;
+    }
+    .upperMenu__repairIcon::before{
+        content: "";
+        border-left: #EAEAEA 2px solid;
+        position: absolute;
+        left:0px;
+        top: 15px;
+        bottom: 15px; 
+    }
+    /*convert decorative image to style end*/
 }
 
 

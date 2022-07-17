@@ -136,6 +136,7 @@ html{
         display: flex;
         flex-wrap: nowrap;
         font-family: 'TTLakes-ExtraLight', sans-serif;
+        column-gap: 2px;
        
     }
     .services__wrapper button{
@@ -152,7 +153,7 @@ html{
         padding-right: 15px;
     }
     .services__wrapper button:active, .services__wrapper button:hover{
-        border: 2px solid #B8FFEC;
+       outline: 2px solid #B8FFEC;;
     }
     .services__repairees{
         margin-left: 25px;
@@ -347,6 +348,7 @@ html{
         font-family: 'TTLakes-ExtraLight', sans-serif;
         display: flex;
         flex-wrap: nowrap;
+        column-gap: 2px;
        
     }
     .services__wrapper button{
@@ -363,8 +365,7 @@ html{
         padding-right: 15px;
     }
     .services__wrapper button:active, .services__wrapper button:hover, .services__wrapper button:focus{
-        border: 2px solid #B8FFEC;
-        outline: none;
+        outline: 2px solid #B8FFEC;
     }
     .services__repairees{
         margin-left: 25px;
@@ -616,6 +617,7 @@ html{
         font-family: 'TTLakes-ExtraLight', sans-serif;
         display: flex;
         flex-wrap: nowrap;
+        column-gap: 2px;
        
     }
     .services__wrapper button{
@@ -632,15 +634,14 @@ html{
         padding-right: 15px;
     }
     .services__wrapper button:active, .services__wrapper button:hover, .services__wrapper button:focus{
-        border: 2px solid #B8FFEC;
-        outline: none;
+        outline: 2px solid #B8FFEC;
     }
     .services__repairees{
         margin-left: 25px;
         
     }
     .services__repairees button:active, .services__repairees button:hover{
-        border: 2px solid #B8FFEC;
+        outline: 2px solid #B8FFEC;
     }
 
     .description__wrapper{

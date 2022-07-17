@@ -159,14 +159,10 @@ html{
     .services__repairees{
         margin-left: 25px;
     }
-
-    .services__letterp{
-        opacity: 0.5;
+    .services__brands, .services__address, .services__feedback{
+        display: none;
+        visibility: hidden;
     }
-    .services__lettero{
-        opacity: 0.2;
-    }
-
 
     .description__text{
         color:#000;
@@ -352,6 +348,10 @@ html{
         column-gap: 2px;
        
     }
+    .services__brands, .services__address, .services__feedback{
+        display: none;
+        visibility: hidden;
+    }
     .services__links{
         padding: 5px;
         white-space: nowrap;
@@ -525,9 +525,12 @@ html{
 
 @media(min-width:1120px){
     /*правки начало*/
-    body{
-        width:1120px;
+
+    html{
+        width: 1120px;
+       
     }
+
     .about__links{
         display: flex;
         column-gap: 25px;
@@ -593,6 +596,9 @@ html{
 
 
     .services__address{
+       
+    }
+    .services__additionals{
         display: none;
         visibility: hidden;
     }
@@ -620,12 +626,16 @@ html{
         display: flex;
         flex-wrap: nowrap;
         column-gap: 2px;
+        flex-wrap: wrap;
        
     }
 
-    .services__repairees{
-        margin-left: 25px;
+    .services__brands{
+       
         
+    }
+    .services__wrapper{
+        margin-left: 25px;
     }
 
     .services__links{

@@ -139,21 +139,22 @@ html{
         column-gap: 2px;
        
     }
-    .services__wrapper button{
+    .services__links{
         padding: 5px;
         white-space: nowrap;
         margin-top: 10px;
         margin-bottom: 10px;
-        color: 	#808080;
+        color: 	rgb(48, 48, 48);
         background-color: #fff;
         border-radius: 5px;
         font-size: 17px;
         border: none;
         padding-left: 15px;
         padding-right: 15px;
+        text-decoration: none;
     }
-    .services__wrapper button:active, .services__wrapper button:hover{
-       outline: 2px solid #B8FFEC;;
+    .services__links:hover, .services__links:focus, .services__links:active{
+        outline: 2px solid #B8FFEC;
     }
     .services__repairees{
         margin-left: 25px;
@@ -351,20 +352,21 @@ html{
         column-gap: 2px;
        
     }
-    .services__wrapper button{
+    .services__links{
         padding: 5px;
         white-space: nowrap;
         margin-top: 10px;
         margin-bottom: 10px;
-        color: 	#808080;
+        color: 	rgb(48, 48, 48);
         background-color: #fff;
         border-radius: 5px;
         font-size: 17px;
         border: none;
         padding-left: 15px;
         padding-right: 15px;
+        text-decoration: none;
     }
-    .services__wrapper button:active, .services__wrapper button:hover, .services__wrapper button:focus{
+    .services__links:hover, .services__links:focus, .services__links:active{
         outline: 2px solid #B8FFEC;
     }
     .services__repairees{
@@ -620,30 +622,29 @@ html{
         column-gap: 2px;
        
     }
-    .services__wrapper button{
+
+    .services__repairees{
+        margin-left: 25px;
+        
+    }
+
+    .services__links{
         padding: 5px;
         white-space: nowrap;
         margin-top: 10px;
         margin-bottom: 10px;
-        color: 	#808080;
+        color: 	rgb(48, 48, 48);
         background-color: #fff;
         border-radius: 5px;
         font-size: 17px;
         border: none;
         padding-left: 15px;
         padding-right: 15px;
+        text-decoration: none;
     }
-    .services__wrapper button:active, .services__wrapper button:hover, .services__wrapper button:focus{
+    .services__links:hover, .services__links:focus, .services__links:active{
         outline: 2px solid #B8FFEC;
     }
-    .services__repairees{
-        margin-left: 25px;
-        
-    }
-    .services__repairees button:active, .services__repairees button:hover{
-        outline: 2px solid #B8FFEC;
-    }
-
     .description__wrapper{
         display: flex;
         align-items:flex-start;

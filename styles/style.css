@@ -6,39 +6,39 @@ html{
 
 @font-face {
     font-family: 'TTLakes-Thin';
-    src: url('./fonts/TTLakes-Thin.woff') format('woff');
+    src: url('../fonts/TTLakes-Thin.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'TTLakes-DemiBold';
-    src: url('./fonts/TTLakes-DemiBold.woff') format('woff');
+    src: url('../fonts/TTLakes-DemiBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'TTLakes-Light';
-    src: url('./fonts/TTLakes-Light.woff') format('woff');
+    src: url('../fonts/TTLakes-Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'TTLakes-Regular';
-    src: url('./fonts/TTLakes-Regular.woff') format('woff');
+    src: url('../fonts/TTLakes-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'TTLakes-ExtraLight';
-    src: url('./fonts/TTLakes-ExtraLight.woff') format('woff');
+    src: url('../fonts/TTLakes-ExtraLight.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'TTLakes-Medium';
-    src: url('./fonts/TTLakes-Medium.woff') format('woff');
+    src: url('../fonts/TTLakes-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

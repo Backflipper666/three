@@ -139,6 +139,7 @@ html{
         flex-wrap: nowrap;
         font-family: 'TTLakes-ExtraLight', sans-serif;
         column-gap: 2px;
+        overflow: scroll;
        
     }
     .services__links{
@@ -628,7 +629,8 @@ html{
     }
 
     .services__brands{
-       
+        background-color: #fff;
+        outline: 2px solid #B8FFEC;
         
     }
     .services__wrapper{
@@ -641,7 +643,6 @@ html{
         margin-top: 10px;
         margin-bottom: 10px;
         color: 	rgb(48, 48, 48);
-        background-color: #fff;
         border-radius: 5px;
         font-size: 17px;
         border: none;
@@ -651,6 +652,7 @@ html{
     }
     .services__links:hover, .services__links:focus, .services__links:active{
         outline: 2px solid #B8FFEC;
+        background-color: #fff;
     }
     .description__wrapper{
         display: flex;
